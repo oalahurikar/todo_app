@@ -1,0 +1,5 @@
+<h1>Pages#profile</h1>
+<p>Find me in app/views/pages/profile.html.erb</p>
+<% if owner? %>
+<li><%= link_to "Invite User", new_invitation_path %></li>
+<% end %>
